@@ -1,0 +1,72 @@
+body {
+    padding-top: 56.5px;
+    z-index: 0;
+}
+
+.navbar-dark {
+    background-color: #3b3636da;
+}
+
+.row-header {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.footer {
+    background-color: #D1C4E9;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.jumbotron {
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    background: #302b38;
+    color: floralwhite;
+}
+
+address {
+    font-size: 80%;
+    margin: 0px;
+}
+
+.col img {
+    display: block;
+    max-width: 700px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+
+.custom :nth-child(2n-1) {
+    background-color: rgba(250, 183, 183, 0.658);
+}
+
+.footer {
+    background-color: #3b3636;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.nav-pills .accent-color .nav-link:not(.active) {
+    background-color: inherit;
+    color: black;
+}
+
+.nav-pills .accent-color .nav-link {
+    background-color: #3b3636;
+}
