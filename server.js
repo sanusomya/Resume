@@ -6,6 +6,6 @@ app.get('/',(req,res) =>{
         root: path.join(__dirname, './')
     })
 });
-const port = process.env.PORT;
-app.listen(port || 2080);
+const port = process.env.PORT || 2080;
+app.listen(port);
 app.use(express.static(path.join(__dirname, '/')));
