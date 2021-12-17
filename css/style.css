@@ -3,7 +3,6 @@ body {
     z-index: 0;
     cursor: default;
 }
-
 .navbar-dark {
     background-color: #3b3636da;
 }
@@ -71,24 +70,14 @@ address {
 .nav-pills .accent-color .nav-link {
     background-color: #3b3636;
 }
-#tiles {
-    width: 100%;
-    max-width: 700px;
-    margin: 2em auto;
+
+#hide{
+    display: block;
 }
-.cols {
-    -moz-column-count:3;
-    -moz-column-gap: 3%;
-    -moz-column-width: 30%;
-    -webkit-column-count:3;
-    -webkit-column-gap: 3%;
-    -webkit-column-width: 30%;
-    column-count: 3;
-    column-gap: 3%;
-    column-width: 30%;
-}
-.box {
-    margin-bottom: 20px;
-    height:100px;
-    background:#BFBFBF;
+
+@media screen and (max-width : 768px) {
+    #hide{
+        display: none;
+    }
+    
 }
